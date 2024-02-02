@@ -3,7 +3,7 @@
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";
-$dbname = "video_game_shop";
+$dbname = "gym";
 
 if (!$con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname)) {
     die("failed to connect!");
